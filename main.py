@@ -3,10 +3,10 @@ pygame.init()
 
 
 window=pygame.display.set_mode((800,600))
-window.fill(0,0,0)
+window.fill((0,0,0))
 pygame.display.set_caption("Temp caption")
 
-player = pygame.surface.Sufrace((100,100))
+player = pygame.surface.Surface((100,100))
 player.fill((255,255,255))
 
 player_x = 0
@@ -14,7 +14,7 @@ player_y = 0
 player_vel_x = 0
 player_vel_y = 0
 
-falling_object = pygame.surface.Sufrace((50,50))
+falling_object = pygame.surface.Surface((50,50))
 falling_object.fill((255,255,255))
 
 falling_object_x = 0
